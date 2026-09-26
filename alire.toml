@@ -1,9 +1,12 @@
 name = "espidf_tinyusb"
 version = "0.1.0-dev"
 website = "https://github.com/godunko/espidf_tinyusb"
-description = "Ada/ESP-IDF: USB Device Stack bindings"
+description = "Ada/ESP-IDF: TinyUSB device stack bindings"
 long-description = """
-Ada bindings for the ESP-IDF `esp_tinyusb` component, wrapping the TinyUSB stack to enable USB Device capabilities on ESP32 microcontrollers.
+Ada bindings for Espressif's TinyUSB integration (`espressif/esp_tinyusb`).
+
+Covers configuration and installation of the TinyUSB device driver. USB device classes
+are provided by separate crates, e.g. `espidf_tinyusb_msc` for Mass Storage Class.
 """
 
 authors = ["Vadim Godunko"]
