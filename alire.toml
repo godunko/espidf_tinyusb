@@ -1,5 +1,5 @@
 name = "espidf_tinyusb"
-version = "0.1.0-dev"
+version = "0.1.0"
 website = "https://github.com/godunko/espidf_tinyusb"
 description = "Ada/ESP-IDF: TinyUSB device stack bindings"
 long-description = """
